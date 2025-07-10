@@ -1,6 +1,6 @@
 # P.I.E.R.O.G.I. Framework - Smaczne Wdrożenia AI
 
-![AI prompt: A photorealistic image of a delicious, steaming plate of pierogi on a modern, dark wooden table. Next to the plate is a futuristic tablet displaying glowing data charts and AI neural network diagrams. The style is a mix of rustic food photography and sleek high-tech aesthetics, dramatic lighting.](https://raw.githubusercontent.com/hculap/pierogi-ai/main/images/pierogi1.png)
+![AI prompt: A photorealistic image of a delicious, steaming plate of pierogi on a modern, dark wooden table. Next to the plate is a futuristic tablet displaying glowing data charts and AI neural network diagrams. The style is a mix of rustic food photography and sleek high-tech aesthetics, dramatic lighting.](https://raw.githubusercontent.com/hculap/pierogi-ai/main/pierogi1.png)
 
 ## Masz apetyt na AI w marketingu? Podajemy P.I.E.R.O.G.I.
 
@@ -76,7 +76,7 @@ Przecież Innowacje, Eksperymenty, Rozwiązania, Operacjonalizacja, Governance i
 
 To nie jest tylko teoria. To sprawdzony przepis na sukces, który organizuje chaos i dostarcza wyniki.
 
-![AI prompt: A dynamic, eye-level shot of a modern kitchen with three chefs working together. One chef, wearing a suit (business), is tasting the dish. The second, wearing a lab coat (tech), is precisely adding a futuristic, glowing ingredient. The third, wearing glasses and holding a clipboard (compliance), is checking a recipe. The scene is collaborative, energetic, and clean.](https://raw.githubusercontent.com/hculap/pierogi-ai/main/images/pierogi2.png)
+![AI prompt: A dynamic, eye-level shot of a modern kitchen with three chefs working together. One chef, wearing a suit (business), is tasting the dish. The second, wearing a lab coat (tech), is precisely adding a futuristic, glowing ingredient. The third, wearing glasses and holding a clipboard (compliance), is checking a recipe. The scene is collaborative, energetic, and clean.](https://raw.githubusercontent.com/hculap/pierogi-ai/main/pierogi2.png)
 
 #### Sprinty P-I-E-R-O-G-I
 Pracujemy w zwinnych, 2-3 tygodniowych cyklach. Każdy sprint ma przypisaną literę i jasny cel. Koniec z projektami ciągnącymi się w nieskończoność!
