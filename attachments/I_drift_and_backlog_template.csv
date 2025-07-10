@@ -1,0 +1,7 @@
+"Section","Date/ID","Model/Feature","Metric/Priority","Value/Status","Threshold/Notes"
+"Drift Tracker","2024-01-01","Churn Predictor V2","Accuracy","0.91","> 0.90","No"
+"Drift Tracker","2024-02-01","Churn Predictor V2","Accuracy","0.89","> 0.90","Yes"
+"Drift Tracker","2024-03-01","Churn Predictor V2","Accuracy","0.87","> 0.90","Yes"
+"Backlog","B001","Add 'time on page' as a feature to Churn Predictor","High","Backlog","This could improve accuracy by 5-10%."
+"Backlog","B002","Experiment with a different algorithm (e.g., XGBoost)","Medium","Backlog",""
+"Backlog","B003","Integrate model with Salesforce for real-time alerts","High","In Development","Target completion: Q2 2024" 

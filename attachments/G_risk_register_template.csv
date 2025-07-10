@@ -1,0 +1,5 @@
+"Risk ID","Risk Description","Risk Category","Likelihood (1-5)","Impact (1-5)","Risk Score","Mitigation Strategy","Owner","Status"
+"R001","Model shows bias against non-English speakers","Bias",3,5,15,"Retrain model with a more diverse dataset; implement a bias detection tool like Evidently AI.","AI Ethics Committee","In Progress"
+"R002","PII is accidentally logged during model inference","Privacy",2,5,10,"Implement a PII scrubbing service before logging; conduct a code review of the logging module.","Data Privacy Officer","Open"
+"R003","Model performance degrades over time (concept drift)","Performance",4,4,16,"Set up continuous monitoring and establish a threshold for retraining; schedule quarterly model health checks.","MLOps Team","Mitigated"
+"R004","The model's API is vulnerable to injection attacks","Security",2,5,10,"Perform a security audit of the API endpoint; implement input validation and sanitization.","AppSec Team","Open" 

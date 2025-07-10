@@ -1,0 +1,5 @@
+"Data Source","Quality (1-5)","Availability (1-5)","Compliance (1-5)","Overall Score","Action Items"
+"Example: CRM (Customer Data)",4,5,3,12,"Data is well-structured but requires a privacy review for a new marketing use case. Need to consult with the legal team."
+"Example: Google Analytics (Website Traffic)",5,5,5,15,"Excellent data quality and availability. Fully compliant with our privacy policy."
+"Example: Product Usage Database",3,4,4,11,"Data is available but not well-documented. Need to create a data dictionary and improve data freshness."
+"Example: Customer Support Tickets",2,3,3,8,"Unstructured text data that requires significant processing. Data access is restricted and requires approval." 

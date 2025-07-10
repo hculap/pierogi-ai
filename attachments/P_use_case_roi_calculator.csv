@@ -1,0 +1,4 @@
+"Use Case","Pain Point/Gain","Impact (1-5)","Feasibility (1-5)","Estimated ROI Score","Notes"
+"Example: Automated Content Tagging","Reduces manual effort for content management, improves content discovery for users.",4,5,20,"Requires integration with our CMS. Potential to save 20 hours per week."
+"Example: Lead Scoring Model","Prioritizes sales leads, allowing the sales team to focus on high-potential prospects.",5,3,15,"Needs access to historical sales data and CRM integration."
+"Example: Customer Churn Prediction","Identifies customers at risk of churning, enabling proactive retention campaigns.",5,2,10,"Complex model to build, requires significant data science resources." 

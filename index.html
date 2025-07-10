@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framework P.I.E.R.O.G.I. - Smaczne Wdrożenia AI</title>
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome Icons via CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts for a modern feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* Custom styles to integrate fonts and a custom color palette */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* bg-gray-900 */
+            color: #F3F4F6; /* text-gray-200 */
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Sora', sans-serif;
+        }
+        .sora-font {
+            font-family: 'Sora', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #FBBF24, #F59E0B);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bg-custom-yellow { background-color: #FBBF24; /* amber-400 */ }
+        .hover-bg-custom-yellow-darker:hover { background-color: #F59E0B; /* amber-500 */ }
+        .border-custom-yellow { border-color: #FBBF24; /* amber-400 */ }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-gray-900/80 backdrop-blur-sm border-b border-gray-800">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold sora-font">
+                P.I.E.R.O.G.<span class="gradient-text">I</span>.
+            </a>
+            <nav class="hidden md:flex space-x-8 items-center">
+                <a href="#framework" class="text-gray-300 hover:text-white transition-colors">Framework</a>
+                <a href="#praktyka" class="text-gray-300 hover:text-white transition-colors">W praktyce</a>
+                <a href="#dlaczego" class="text-gray-300 hover:text-white transition-colors">Dlaczego to działa?</a>
+                <a href="#kontakt" class="bg-custom-yellow text-gray-900 font-bold py-2 px-4 rounded-lg hover-bg-custom-yellow-darker transition-all duration-300 transform hover:scale-105">
+                    Ugotujmy Sukces!
+                </a>
+            </nav>
+            <button class="md:hidden text-2xl">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold sora-font leading-tight">
+                    Masz apetyt na AI w marketingu?
+                </h1>
+                <h2 class="text-4xl md:text-6xl lg:text-7xl font-extrabold sora-font leading-tight mt-2">
+                    Podajemy <span class="gradient-text">P.I.E.R.O.G.I.</span>
+                </h2>
+                <p class="mt-8 max-w-3xl mx-auto text-lg md:text-xl text-gray-400">
+                    Koniec z niestrawnymi wdrożeniami i przypalonym budżetem. Odkryj nasz framework, który sprawi, że implementacja AI w Twoim zespole będzie równie satysfakcjonująca, co talerz domowych pierogów.
+                </p>
+                <div class="mt-10 flex justify-center gap-4">
+                    <a href="#framework" class="bg-custom-yellow text-gray-900 font-bold py-3 px-8 rounded-lg hover-bg-custom-yellow-darker transition-all duration-300 transform hover:scale-105 text-lg">
+                        Poznaj przepis
+                    </a>
+                    <a href="#kontakt" class="bg-gray-800 text-white font-bold py-3 px-8 rounded-lg hover:bg-gray-700 transition-colors text-lg">
+                        Zamów konsultację
+                    </a>
+                </div>
+            </div>
+            <div class="container mx-auto px-6 mt-16 md:mt-24">
+                <div class="relative rounded-xl shadow-2xl overflow-hidden">
+                    <img src="images/pierogi1.png" 
+                         alt="AI prompt: A photorealistic image of a delicious, steaming plate of pierogi on a modern, dark wooden table. Next to the plate is a futuristic tablet displaying glowing data charts and AI neural network diagrams. The style is a mix of rustic food photography and sleek high-tech aesthetics, dramatic lighting." 
+                         class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Framework Section -->
+        <section id="framework" class="py-20 bg-gray-900/50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold sora-font">Jeden framework, by wszystko ugotować</h2>
+                    <p class="mt-4 text-lg text-gray-400 max-w-2xl mx-auto">Przecież Innowacje, Eksperymenty, Rozwiązania, Operacjonalizacja, Governance i Iteracja.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- P -->
+                    <div class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-custom-yellow hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="text-4xl font-black gradient-text">P</span>
+                            <h3 class="text-2xl font-bold sora-font">Problematyka & Potencjał</h3>
+                        </div>
+                        <p class="text-amber-300 font-semibold mb-4"><i class="fas fa-bullseye fa-fw mr-2"></i> Zrozumieć, po co w ogóle AI.</p>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>Mapowanie procesów marketing/sales</li>
+                            <li>Warsztat „pain points vs. AI gains”</li>
+                            <li>Wstępny business case</li>
+                        </ul>
+                        <p class="mt-4 pt-4 border-t border-gray-700 font-mono text-sm text-gray-500">
+                            <i class="fas fa-trophy fa-fw mr-2 text-amber-500"></i>KPI: Lista use-case’ów wg ROI
+                        </p>
+                        <div class="mt-4">
+                            <a href="attachments/P_use_case_roi_calculator.csv" download="P_use_case_roi_calculator.csv" class="bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-600 transition-all duration-300 transform hover:scale-105 text-sm inline-block">
+                                Pobierz <i class="fas fa-download ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- I -->
+                    <div class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-custom-yellow hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="text-4xl font-black gradient-text">I</span>
+                            <h3 class="text-2xl font-bold sora-font">Inspiracja Danymi</h3>
+                        </div>
+                        <p class="text-amber-300 font-semibold mb-4"><i class="fas fa-database fa-fw mr-2"></i> Zbadać, czym AI ma się karmić.</p>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>Audyt źródeł danych (CRM, web)</li>
+                            <li>Ocena jakości, pokrycia i zgodności</li>
+                            <li>Analiza GDPR/RODO</li>
+                        </ul>
+                        <p class="mt-4 pt-4 border-t border-gray-700 font-mono text-sm text-gray-500">
+                            <i class="fas fa-trophy fa-fw mr-2 text-amber-500"></i>KPI: Data-readiness scorecard
+                        </p>
+                        <div class="mt-4">
+                            <a href="attachments/I_data_readiness_scorecard.csv" download="I_data_readiness_scorecard.csv" class="bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-600 transition-all duration-300 transform hover:scale-105 text-sm inline-block">
+                                Pobierz <i class="fas fa-download ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- E -->
+                    <div class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-custom-yellow hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="text-4xl font-black gradient-text">E</span>
+                            <h3 class="text-2xl font-bold sora-font">Eksperymentuj & Edukuj</h3>
+                        </div>
+                        <p class="text-amber-300 font-semibold mb-4"><i class="fas fa-flask-vial fa-fw mr-2"></i> Mały koszt – duża lekcja.</p>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>Proof-of-Concept na 1-2 use-case'ach</li>
+                            <li>„Lunch-and-learn” o AI dla zespołów</li>
+                            <li>Wybór pierwszych narzędzi</li>
+                        </ul>
+                        <p class="mt-4 pt-4 border-t border-gray-700 font-mono text-sm text-gray-500">
+                            <i class="fas fa-trophy fa-fw mr-2 text-amber-500"></i>KPI: Wyniki PoC (lift vs baseline)
+                        </p>
+                        <div class="mt-4">
+                            <a href="attachments/E_poc_results_template.md" download="E_poc_results_template.md" class="bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-600 transition-all duration-300 transform hover:scale-105 text-sm inline-block">
+                                Pobierz <i class="fas fa-download ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- R -->
+                    <div class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-custom-yellow hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="text-4xl font-black gradient-text">R</span>
+                            <h3 class="text-2xl font-bold sora-font">Rozwijaj Modele</h3>
+                        </div>
+                        <p class="text-amber-300 font-semibold mb-4"><i class="fas fa-code-branch fa-fw mr-2"></i> Wyjść poza demo do MVP.</p>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>Feature engineering, wybór algorytmów</li>
+                            <li>Trening/walidacja, MLOps-as-code</li>
+                            <li>Budowa pipeline'u CI/CD</li>
+                        </ul>
+                        <p class="mt-4 pt-4 border-t border-gray-700 font-mono text-sm text-gray-500">
+                            <i class="fas fa-trophy fa-fw mr-2 text-amber-500"></i>ARTEFAKT: Model cards, pipeline
+                        </p>
+                        <div class="mt-4">
+                            <a href="attachments/R_model_card_template.md" download="R_model_card_template.md" class="bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-600 transition-all duration-300 transform hover:scale-105 text-sm inline-block">
+                                Pobierz <i class="fas fa-download ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- O -->
+                    <div class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-custom-yellow hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="text-4xl font-black gradient-text">O</span>
+                            <h3 class="text-2xl font-bold sora-font">Operacjonalizuj & Optymalizuj</h3>
+                        </div>
+                        <p class="text-amber-300 font-semibold mb-4"><i class="fas fa-rocket fa-fw mr-2"></i> Włączyć AI w tryb ciągły.</p>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>Integracja z kanałami (email, ads, CC)</li>
+                            <li>A/B testing i autoscaling w chmurze</li>
+                            <li>Stworzenie dashboardów</li>
+                        </ul>
+                        <p class="mt-4 pt-4 border-t border-gray-700 font-mono text-sm text-gray-500">
+                            <i class="fas fa-trophy fa-fw mr-2 text-amber-500"></i>KPI: Dashboardy ROAS, SLA
+                        </p>
+                        <div class="mt-4">
+                            <a href="attachments/O_dashboard_template.csv" download="O_dashboard_template.csv" class="bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-600 transition-all duration-300 transform hover:scale-105 text-sm inline-block">
+                                Pobierz <i class="fas fa-download ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- G -->
+                    <div class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-custom-yellow hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300 transform hover:-translate-y-2">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="text-4xl font-black gradient-text">G</span>
+                            <h3 class="text-2xl font-bold sora-font">Gwarancja & Governance</h3>
+                        </div>
+                        <p class="text-amber-300 font-semibold mb-4"><i class="fas fa-shield-halved fa-fw mr-2"></i> Śpij spokojnie: prawo, etyka, RODO.</p>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>Audyt zgodności, rejestr modeli</li>
+                            <li>Polityka monitoringu biasu</li>
+                            <li>Plan audytów i zarządzanie ryzykiem</li>
+                        </ul>
+                        <p class="mt-4 pt-4 border-t border-gray-700 font-mono text-sm text-gray-500">
+                            <i class="fas fa-trophy fa-fw mr-2 text-amber-500"></i>ARTEFAKT: Rejestr ryzyk, raporty
+                        </p>
+                        <div class="mt-4">
+                            <a href="attachments/G_risk_register_template.csv" download="G_risk_register_template.csv" class="bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-600 transition-all duration-300 transform hover:scale-105 text-sm inline-block">
+                                Pobierz <i class="fas fa-download ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- I (final) -->
+                     <div class="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-custom-yellow hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-300 transform hover:-translate-y-2 md:col-start-2 lg:col-start-auto">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="text-4xl font-black gradient-text">I</span>
+                            <h3 class="text-2xl font-bold sora-font">Iteruj & Informuj</h3>
+                        </div>
+                        <p class="text-amber-300 font-semibold mb-4"><i class="fas fa-sync-alt fa-fw mr-2"></i> Utrzymać życie i hype.</p>
+                        <ul class="space-y-2 text-gray-300 list-disc list-inside">
+                            <li>Cotygodniowy „model health check”</li>
+                            <li>Retrospektywy KPI z biznesem</li>
+                            <li>Planowanie next-gen funkcji</li>
+                        </ul>
+                        <p class="mt-4 pt-4 border-t border-gray-700 font-mono text-sm text-gray-500">
+                            <i class="fas fa-trophy fa-fw mr-2 text-amber-500"></i>KPI: Raporty driftu, backlog
+                        </p>
+                        <div class="mt-4">
+                            <a href="attachments/I_drift_and_backlog_template.csv" download="I_drift_and_backlog_template.csv" class="bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg hover:bg-amber-600 transition-all duration-300 transform hover:scale-105 text-sm inline-block">
+                                Pobierz <i class="fas fa-download ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How it works Section -->
+        <section id="praktyka" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="lg:flex lg:items-center lg:gap-16">
+                    <div class="lg:w-1/2">
+                         <img src="images/pierogi2.png" 
+                             alt="AI prompt: A dynamic, eye-level shot of a modern kitchen with three chefs working together. One chef, wearing a suit (business), is tasting the dish. The second, wearing a lab coat (tech), is precisely adding a futuristic, glowing ingredient. The third, wearing glasses and holding a clipboard (compliance), is checking a recipe. The scene is collaborative, energetic, and clean." 
+                             class="rounded-xl shadow-lg w-full h-full object-cover">
+                    </div>
+                    <div class="lg:w-1/2 mt-10 lg:mt-0">
+                        <h2 class="text-4xl md:text-5xl font-bold sora-font">Jak to „smakuje” w praktyce?</h2>
+                        <p class="mt-6 text-lg text-gray-400">To nie jest tylko teoria. To sprawdzony przepis na sukces, który organizuje chaos i dostarcza wyniki.</p>
+                        
+                        <div class="mt-8 space-y-6">
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0 w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-person-running text-2xl text-amber-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold">Sprinty P-I-E-R-O-G-I</h4>
+                                    <p class="text-gray-400">Pracujemy w zwinnych, 2-3 tygodniowych cyklach. Każdy sprint ma przypisaną literę i jasny cel. Koniec z projektami ciągnącymi się w nieskończoność!</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0 w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-traffic-light text-2xl text-amber-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold">SOStest (Stop-Optimize-Scale)</h4>
+                                    <p class="text-gray-400">Każda faza kończy się prostą decyzją: zatrzymujemy, optymalizujemy czy skalujemy? Jeśli danie jest przypalone – naprawiamy sos, a nie wyrzucamy całego pieroga.</p>
+                                </div>
+                            </div>
+                             <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0 w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-users-cog text-2xl text-amber-400"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-bold">Cross-funkcyjne trio</h4>
+                                    <p class="text-gray-400">Projekt ma trzech właścicieli: Biznes (Marketing/Sales), Tech (ML Engineer) i Compliance (Data Privacy). Gwarantuje to, że nic nam nie umknie.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- "Spices" / Tools Section -->
+        <section class="py-20 bg-gray-800/20">
+            <div class="container mx-auto px-6 text-center">
+                 <h2 class="text-4xl md:text-5xl font-bold sora-font">Szybkie przyprawy</h2>
+                 <p class="mt-4 text-lg text-gray-400 max-w-2xl mx-auto">Narzędzia i metryki, które dodają smaku naszym wdrożeniom.</p>
+
+                 <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8">
+                     <div class="p-6 bg-gray-800 rounded-lg">
+                        <h4 class="font-bold text-lg text-amber-300">Data Inspo</h4>
+                        <p class="mt-2 text-gray-400 font-mono text-sm">dbt<br>Monte Carlo<br>Great Expectations</p>
+                     </div>
+                     <div class="p-6 bg-gray-800 rounded-lg">
+                        <h4 class="font-bold text-lg text-amber-300">Experiments</h4>
+                        <p class="mt-2 text-gray-400 font-mono text-sm">Weights & Biases<br>Optimizely<br>Feature Flags</p>
+                     </div>
+                     <div class="p-6 bg-gray-800 rounded-lg">
+                        <h4 class="font-bold text-lg text-amber-300">Deploy</h4>
+                        <p class="mt-2 text-gray-400 font-mono text-sm">FastAPI + Docker<br>GitHub Actions<br>Vertex AI</p>
+                     </div>
+                     <div class="p-6 bg-gray-800 rounded-lg">
+                        <h4 class="font-bold text-lg text-amber-300">Governance</h4>
+                        <p class="mt-2 text-gray-400 font-mono text-sm">Evidently AI<br>Azure Responsible AI<br>Custom Dashboards</p>
+                     </div>
+                 </div>
+            </div>
+        </section>
+
+
+        <!-- Why it works Section -->
+        <section id="dlaczego" class="py-20">
+             <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold sora-font">Dlaczego „P.I.E.R.O.G.I.” działają?</h2>
+                    <p class="mt-4 text-lg text-gray-400 max-w-2xl mx-auto">To więcej niż chwytliwa nazwa. To system, który naprawdę działa.</p>
+                </div>
+
+                <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+                     <div class="flex flex-col items-center p-6">
+                         <div class="w-20 h-20 flex items-center justify-center bg-amber-400/10 rounded-full mb-4">
+                            <i class="fas fa-smile-beam text-4xl text-amber-400"></i>
+                         </div>
+                         <h4 class="text-xl font-bold mb-2">Zapada w pamięć</h4>
+                         <p class="text-gray-400">Każdy Polak uśmiecha się na dźwięk słowa „pierogi”. Ten framework jest łatwy do zapamiętania i komunikowania w całej organizacji.</p>
+                     </div>
+                      <div class="flex flex-col items-center p-6">
+                         <div class="w-20 h-20 flex items-center justify-center bg-amber-400/10 rounded-full mb-4">
+                            <i class="fas fa-project-diagram text-4xl text-amber-400"></i>
+                         </div>
+                         <h4 class="text-xl font-bold mb-2">Jest holistyczny</h4>
+                         <p class="text-gray-400">Wymusza myślenie o całościowym cyklu życia projektu AI: od pomysłu, przez dane i development, aż po zgodność z prawem i utrzymanie.</p>
+                     </div>
+                      <div class="flex flex-col items-center p-6">
+                         <div class="w-20 h-20 flex items-center justify-center bg-amber-400/10 rounded-full mb-4">
+                            <i class="fas fa-cubes text-4xl text-amber-400"></i>
+                         </div>
+                         <h4 class="text-xl font-bold mb-2">Jest modularny</h4>
+                         <p class="text-gray-400">Możesz „zamrozić” pierogi po fazie Eksperymentu i wrócić do nich później, gdy budżet lub zasoby na to pozwolą. Pełna elastyczność.</p>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="kontakt" class="py-20 bg-gray-900/50">
+            <div class="container mx-auto px-6">
+                 <div class="bg-gray-800 rounded-2xl p-10 md:p-16 text-center relative overflow-hidden">
+                    <div class="absolute -top-10 -right-10 w-40 h-40 bg-amber-500/10 rounded-full blur-2xl"></div>
+                    <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-amber-500/10 rounded-full blur-2xl"></div>
+                    <h2 class="text-3xl md:text-5xl font-extrabold sora-font">Gotowy, by ugotować <span class="gradient-text">swój sukces</span>?</h2>
+                    <p class="mt-6 max-w-2xl mx-auto text-lg text-gray-400">Porozmawiajmy o tym, jak framework P.I.E.R.O.G.I. może pomóc Twojej firmie wdrożyć AI skutecznie i bez bólu głowy. Zostaw nam swoje dane, a my wrócimy z przepisem na sukces.</p>
+                    <div class="mt-10">
+                         <a href="mailto:kontakt@szymonpaluch.com" class="bg-custom-yellow text-gray-900 font-bold py-4 px-10 rounded-lg hover-bg-custom-yellow-darker transition-all duration-300 transform hover:scale-105 text-lg inline-block">
+                             Skontaktuj się z nami <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-500">
+             <p>&copy; 2024 P.I.E.R.O.G.I. Framework. Wszelkie prawa zastrzeżone. Ugotowano z pasją.</p>
+             <div class="mt-4 flex justify-center space-x-6">
+                <a href="https://www.linkedin.com/in/szymonpaluch/" class="hover:text-amber-400 transition-colors"><i class="fab fa-linkedin-in text-xl"></i></a>
+                <a href="https://github.com/hculap" class="hover:text-amber-400 transition-colors"><i class="fab fa-github text-xl"></i></a>
+                <a href="https://x.com/szymonpalucheth" class="hover:text-amber-400 transition-colors"><i class="fab fa-twitter text-xl"></i></a>
+             </div>
+        </div>
+    </footer>
+
+
+    <!-- Simple JS for smooth scroll -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
